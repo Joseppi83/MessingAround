@@ -7,12 +7,13 @@ aValue();
 //Variable declarations with the keyword "var" are parsed and stored in memory as undefined, before the code is executed in the browser.
 //Variables declared with var are capable of being used before they are declared a value lexically (physically), because they are parsed and stored in memory as UNDEFINED
 //Var is function scoped
-var a = "Does a var/const/let get parsed and stored as undefined first?";
+var a =
+  "Does a var get parsed and stored as undefined first? And does the engine allow it to be used, before it is declared lexically (physically)?";
 
 //Variable declarations with the keyword "const" and "let" are parsed and stored in memory as undefined, before the code executes in the browser.  However, the engine does NOT allow it to be used until after it is declared a value lexically (physically).
 //Let and const are block scoped
-// let a = "Does a const get parsed and stored as undefined first?";
-// const a = "Does a const get parsed and stored as undefined first?";
+// let a = "Does a const/let get parsed and stored as undefined first? And does the engine allow it to be used, before it is declared lexically (physically)?";
+// const a = "Does a const/let get parsed and stored as undefined first? And does the engine allow it to be used, before it is declared lexically (physically)?";
 
 console.log(a);
 // aValue();
