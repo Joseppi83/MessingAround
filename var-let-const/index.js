@@ -1,4 +1,4 @@
-//TESTING IF CONST AND LET GET PARSED AND STORED IN MEMORY AS UNDEFINED.  I ALREADY KNOW VAR IS PARSED AND STORED IN MEMORY AS UNDEFINED.
+//Testing if a var/let/const is parsed and stored in memory and if the engine will allow it to be used, before it is declared lexically (physically).
 console.log(a);
 
 //We can invoke functions before they are declared, because functions are parsed and stored in memory in their entirety, before the code is executed in the browser.
