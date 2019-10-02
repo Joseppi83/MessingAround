@@ -22,9 +22,11 @@ console.log(a);
 function aValue() {
   if (a === undefined) {
     console.log(
-      "The variable was parsed and stored as UNDEFINED, but is unable to be used until AFTER it is declared a value"
+      "The variable was parsed and stored as UNDEFINED, but is unable to be used until AFTER it is declared a value."
     );
   } else {
-    console.log("Not stored as undefined.");
+    console.log(
+      "It is still parsed and stored as UNDEFINED, but the engine does NOT allow it to be used before it is declared lexically (physically)."
+    );
   }
 }
